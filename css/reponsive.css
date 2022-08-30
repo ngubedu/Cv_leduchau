@@ -1,0 +1,14 @@
+@media (max-width: 809px) {
+    .content {
+        display: block;
+    }
+}
+
+@media (max-width: 683px) {
+    header {
+        display: block;
+    }
+    .header__right {
+        text-align: justify;
+    }
+}
