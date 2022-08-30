@@ -1,0 +1,235 @@
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    
+    body {
+        background: #ecf0f1;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    h1,
+    h2,
+    h3 {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .container {
+        max-width: 100%;
+        width: 860px;
+        margin: .6rem auto;
+        background-color: #ffff;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    /* header  */
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 5px solid black;
+        margin: 0 3rem;
+        padding-top: 1.5rem;
+        padding-bottom: .3rem;
+    }
+    
+    header .header__left {
+        display: flex;
+    }
+    
+    header .header__left .header__logo img {
+        max-width: 100%;
+        width: 140px;
+        max-height: 100%;
+        height: 140px;
+        border-radius: 50%;
+    }
+    
+    header .header__left .header__hgroup {
+        padding-left: 1.2rem;
+        padding-top: 1rem;
+    }
+    
+    header .header__left .header__hgroup h4 {
+        font-weight: normal;
+        color: #7f8c8d;
+    }
+    
+    .header__right {
+        text-align: right;
+    }
+    
+    .header__right .header__info {
+        padding-top: 1rem;
+        line-height: 1.3rem;
+    }
+    
+    .header__right .header__info p {
+        font-weight: normal;
+    }
+    /* end-header */
+    /* content */
+    
+    .content {
+        margin: 2rem 3rem;
+        display: flex;
+    }
+    
+    .content .col_left {
+        flex: 2;
+    }
+    
+    .content .col_right {
+        flex: 1;
+    }
+    /* col_left */
+    
+    .col_left {
+        margin-right: 2rem;
+    }
+    
+    .col_left .text_one {
+        line-height: 1.8rem;
+        margin-bottom: 2rem;
+    }
+    
+    .col_left .text_one h3 {
+        border-bottom: 2px solid black;
+    }
+    
+    .col_left .text_one .text1_content {
+        display: flex;
+        padding-top: 0.4rem;
+    }
+    
+    .text1_year {
+        flex: 1;
+    }
+    
+    .text1_infor {
+        flex: 6;
+    }
+    
+    .col_left .text_one .text1_content .text1_year {
+        line-height: 1.3rem;
+        text-align: center;
+        padding-top: .2rem;
+        font-size: 0.9rem;
+    }
+    
+    .col_left .text_one .text1_content .text1_year p {
+        color: black;
+        font-weight: bold;
+    }
+    
+    .infor {
+        border-left: 3px solid black;
+        line-height: 1.5rem;
+        margin-left: .355rem;
+    }
+    
+    .text1_infor h4 {
+        font-size: 1rem;
+    }
+    
+    .text1_infor h4 i {
+        padding-right: 0.5rem;
+        font-size: 1rem;
+    }
+    
+    .infor p {
+        margin-left: 1rem;
+        color: #636e72;
+    }
+    
+    #title_color {
+        color: #22a6b3;
+    }
+    
+    .text1_content--fix {
+        margin-top: 1rem;
+    }
+    /* col_right */
+    
+    .content .col_right {
+        line-height: 1.4rem;
+    }
+    
+    .content .col_right h3 {
+        padding-bottom: 0.4rem;
+    }
+    
+    .content .col_right .taget_content {
+        padding-top: 0.5rem;
+        border-top: 2px solid black;
+    }
+    
+    .content .col_right .taget_content p {
+        color: #636e72;
+    }
+    
+    .content .col_right .text_five {
+        margin-top: 2rem;
+    }
+    
+    .content .col_right .skills_content {
+        padding-top: 0.5rem;
+        border-top: 2px solid black;
+        line-height: 1.9rem;
+    }
+    
+    .content .col_right .skills_content p {
+        color: #636e72;
+    }
+    
+    .content .col_right .text_six {
+        margin-top: 2rem;
+        margin-bottom: 2.5rem;
+    }
+    
+    .content .col_right .interests_content {
+        padding-top: 0.5rem;
+        padding-left: 2rem;
+        border-top: 2px solid black;
+        line-height: 2.3rem;
+    }
+    
+    .content .col_right .interests_content ul {
+        list-style: circle;
+    }
+    
+    .content .col_right .interests_content ul li {
+        color: #636e72;
+    }
+    
+    .interests {
+        width: 100%;
+        background-color: #ddd;
+    }
+    /* định dạng chung cho thẻ hiển thị skill */
+    
+    .skills {
+        text-align: right;
+        padding-right: 10px;
+        line-height: 0.6rem;
+    }
+    /* định dạng cho từng skill theo số liệu */
+    
+    .office {
+        width: 75%;
+        height: .5rem;
+        background-color: #22a6b3;
+    }
+    
+    .working {
+        width: 75%;
+        height: .5rem;
+        background-color: #22a6b3;
+    }
+    
+    .english {
+        width: 65%;
+        height: .5rem;
+        background-color: #22a6b3;
+    }
